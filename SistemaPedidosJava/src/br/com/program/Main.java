@@ -14,8 +14,8 @@ public class Main {
 		// aos objetos.
 		// OBS.: Uma vez instanciada uma classe, ela passa a se
 		// chamar de OBJETO.
-		Cliente cliente01 = new Cliente("João");
-		Cliente cliente02 = new Cliente("Maria");
+		Cliente cliente01 = new Cliente("João", true);
+		Cliente cliente02 = new Cliente("Maria", false);
 		
 		Produto produto01 = new Produto("Camiseta", 39.90f);
 		Produto produto02 = new Produto("Calça", 90.00f);
